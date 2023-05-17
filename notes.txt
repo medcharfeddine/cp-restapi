@@ -1,0 +1,11 @@
+Applictation : contact list
+user scenario : view contacts
+add/delete/edit contacts
+
+
+
+API:
+1- create server
+2- connect to a database (MongoDB Atlas)
+3- create the application models
+4- create endpoints (express routes)
