@@ -31,9 +31,6 @@ app.post("/addUsers",async(req,res)=>{
 // GET 
 app.get("/getUsers",async(req,res)=>{
     try {
-        // get one user
-        // const users = await User.findById(req.params.x)
-        // get all users
         const users = await User.find()
         res.send(users)
     } catch (error) {
